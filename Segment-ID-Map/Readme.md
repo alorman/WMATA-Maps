@@ -15,6 +15,37 @@ The rail system itself is divided into 3,325 globally unique (although potential
 This graphic from the [WMATA developer](https://developer.wmata.com/) page shows a fictional setup. The diagram shows a single sided crossover track, with one center rail:
 ![](images/neighbor-diagram.png)
 
+When querying the [WMATA API](https://developer.wmata.com/) for a list of all track segments `https://api.wmata.com/TrainPositions/TrackCircuits?contentType={contentType}` for the curious it returns a JSON that looks like this:
+```
+{
+"TrackCircuits": [{
+"Track": 2,
+"CircuitId": 8,
+"Neighbors": [{
+"NeighborType": "Right",
+"CircuitIds": [4, 3]
+}]
+}, {
+"Track": 2,
+"CircuitId": 4,
+"Neighbors": [{
+"NeighborType": "Left",
+"CircuitIds": [8]
+}, {
+"NeighborType": "Right",
+"CircuitIds": [9]
+}]
+}, {
+"Track": 2,
+"CircuitId": 9,
+"Neighbors": [{
+"NeighborType": "Left",
+"CircuitIds": [4]
+}]
+}
+```
+and so on....
+
 ## Mapping This Madness
 As far as I know, I'm the first person to publish a graphical map of the `CircuitID` information. It is available in this repo. Please see the [Copying.md](copying.md) file for license information. 
 
@@ -37,7 +68,7 @@ I wrote several [Grasshopper](https://www.grasshopper3d.com/) scripts to help me
 ![](images/pocket-track.png)
 
 - Very dense numbering on the newer (and more geographically spread out areas of the map)
-![](dense-numbering.png)
+![](images/dense-numbering.png)
 
 
 
