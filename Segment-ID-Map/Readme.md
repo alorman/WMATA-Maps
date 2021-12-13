@@ -46,14 +46,18 @@ When querying the [WMATA API](https://developer.wmata.com/) for a list of all tr
 ```
 and so on....
 
+Stations are essentially a super-notation onto speecific track segments:
+- For instance: `Van Ness-UDC` station is station code `A06`. Circuits `142` and `346` are flagged with this stations code.
+
 ## Mapping This Madness
 As far as I know, I'm the first person to publish a graphical map of the `CircuitID` information. It is available in this repo. Please see the [Copying.md](copying.md) file for license information. 
 
 WMATA has published a much simplified (and not complete) version in their [2012 Strategic Plan](https://www.wmata.com/initiatives/strategic-plans/upload/7Metro-2025-Pocket-Tracks-Secure.pdf):
-![](images/wmata-strategic-plan-map.png)
+![](images/wmata-strategic-plan-map.PNG)
 
 ## The Map
 (Available in the original AI, PDF and SVG in this repo)
+Also, searchable as a PDF or SVG. Useful if you're looking for a specific circuit!
 ![](images/Segment-ID-Map.png)
 
 ## Making the Map
@@ -69,6 +73,8 @@ I wrote several [Grasshopper](https://www.grasshopper3d.com/) scripts to help me
 
 - Very dense numbering on the newer (and more geographically spread out areas of the map)
 ![](images/dense-numbering.png)
+
+I did most of the numbering in Grasshopper, relying on my script to spit out sequential circuit IDs and distribute the text. I hand-plotted all the pocket tracks and sidings. 
 
 
 
