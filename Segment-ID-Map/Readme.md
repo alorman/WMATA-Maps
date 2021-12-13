@@ -76,6 +76,8 @@ I wrote several [Grasshopper](https://www.grasshopper3d.com/) scripts to help me
 
 I did most of the numbering in Grasshopper, relying on my script to spit out sequential circuit IDs and distribute the text. I hand-plotted all the pocket tracks and sidings. 
 
+Please note: While the original DC Metro map is copyright WMATA (various years), I made this map and everything in it. I've licensed it under the GNU GPL V3 license. You can read more in the [copying](Copying.md) section. Thank you.
+
 
 
 
