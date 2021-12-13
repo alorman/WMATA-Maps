@@ -23,7 +23,7 @@ WMATA has published a much simplified (and not complete) version in their [2012 
 
 ## The Map
 (Available in the original AI, PDF and SVG in this repo)
-![](Segment-ID-Map.png)
+![](images/Segment-ID-Map.png)
 
 ## Making the Map
 I wrote several [Grasshopper](https://www.grasshopper3d.com/) scripts to help me make sense of the data. Some interesting sections:
