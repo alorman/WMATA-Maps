@@ -1,4 +1,4 @@
 # WMATA-Maps
 
 ## Segment ID Map
-Shows the every segment ID in the whole system
+[Shows the every segment ID in the whole system.](/Segment-ID-Map)
