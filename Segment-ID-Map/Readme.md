@@ -74,6 +74,10 @@ I wrote several [Grasshopper](https://www.grasshopper3d.com/) scripts to help me
 - Very dense numbering on the newer (and more geographically spread out areas of the map)
 ![](images/dense-numbering.png)
 
+- Infill stations:
+  - WMATA inserted new track segments and changed the standard route for the `Potomac Yards` infill station, added in 2023. 
+![](images/infill-station.png)
+
 I did most of the numbering in Grasshopper, relying on my script to spit out sequential circuit IDs and distribute the text. I hand-plotted all the pocket tracks and sidings. 
 
 Please note: While the original DC Metro map is copyright WMATA (various years), I made this map and everything in it. I've licensed it under the GNU GPL V3 license. You can read more in the [copying](Copying.md) section. Thank you.
