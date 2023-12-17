@@ -1,5 +1,6 @@
 # WMATA Segment Map
 (but first, an image)
+
 ![](images/zoom-to-scale.gif)
 
 ## About DC Metro Rail
@@ -50,7 +51,7 @@ Stations are essentially a super-notation onto speecific track segments:
 - For instance: `Van Ness-UDC` station is station code `A06`. Circuits `142` and `346` are flagged with this stations code.
 
 ## Mapping This Madness
-As far as I know, I'm the first person to publish a graphical map of the `CircuitID` information. It is available in this repo. Please see the [Copying.md](copying.md) file for license information. 
+As far as I know, I'm the first person to publish a graphical map of the `CircuitID` information. It is available in this repo. Please see the [Copying.md](Copying.md)) file for license information. 
 
 WMATA has published a much simplified (and not complete) version in their [2012 Strategic Plan](https://www.wmata.com/initiatives/strategic-plans/upload/7Metro-2025-Pocket-Tracks-Secure.pdf):
 ![](images/wmata-strategic-plan-map.PNG)
